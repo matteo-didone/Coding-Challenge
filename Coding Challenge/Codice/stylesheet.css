@@ -1,0 +1,112 @@
+/*Creo il mio font, che è molto simile a quello del titolo*/
+@font-face
+{
+    font-family: Expressa;
+    src: url("Expressa Regular.woff2");
+}
+
+
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Expressa, sans-serif; /*Scelgo sans-serif come font di riserva*/
+}
+
+body.background
+{
+    background-image: url("background.jpg");
+    background-position: initial;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.homepage
+{
+    width: 65%;
+    margin: 2% auto;
+    border-radius: 20px;
+    padding: 7%;
+    background-color: rgba(0,0,0,70%);
+}
+
+header
+{
+    display: block;
+    position: center;
+    font-family: Expressa, serif;
+    color: rgba(0,221,0,100%);
+    text-align: center;
+}
+
+img
+{
+    position: center;
+    display: block;
+    width: 25%;
+    height: 25%;
+    background-size: contain;
+    margin: 0 40%;
+}
+
+#menu
+{
+    position: relative;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    margin: 1% auto;
+    padding: 2%;
+    background-color: #00dd00;
+}
+
+#menu > button
+{
+    margin: 2px;
+    color: black;
+}
+
+.monopattino
+{
+    color: #ffffffff;
+}
+
+.monopattino > h3
+{
+    font-weight: bolder;
+    font-size: 25px ;
+}
+
+span
+{
+    display: block;
+    font-size: 15px;
+}
+
+.carica
+{
+    padding: 2%;
+}
+
+#media
+{
+    background-color: #ffa500ff;
+    border-radius: 5px;
+    width: 40%;
+}
+
+#alta
+{
+    background-color: #269926;
+    border-radius: 5px;
+    width: 60%;
+}
+
+#bassa
+{
+    background-color: #ad1111;
+    border-radius: 5px;
+    width: 20%;
+}
+
